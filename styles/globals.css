@@ -1,0 +1,17 @@
+/* Custom Scrollbar for a cleaner look */
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: #FFF8F0;
+}
+::-webkit-scrollbar-thumb {
+  background: #D4AF37;
+  border-radius: 4px;
+}
+body {
+  overscroll-behavior-y: none; /* Prevent bounce effect on mobile */
+  background: #f5f5f4;
+  color: #1c1917;
+  font-family: 'Quicksand', sans-serif;
+}
